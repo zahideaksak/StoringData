@@ -44,7 +44,7 @@ class MainActivity : AppCompatActivity() {
         ageFromPreferences = sharedPreferences.getInt("age", -1)
         if (ageFromPreferences != -1) {
             sharedPreferences.edit().remove("age").apply()
-            textView.text = "Your age: "
+            textView.text = "Your agee: "
         }
 
     }
